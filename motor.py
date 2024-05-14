@@ -20,7 +20,7 @@ step_sequence = [
 
 
 # Delay between steps in seconds
-step_delay = .000732
+step_delay = 0.000732
 
 # STEP DELAY VALUES:
 # DELAY = (60/RPM) / 4096
@@ -72,7 +72,7 @@ if __name__ == "__main__":
         while True:
             # Rotate the motor 360 degrees clockwise
             for num in range(number_of_turns):
-                step(True, steps_per_revolution)
+                step(False, steps_per_revolution)
                 turn_counter = turn_counter + 1
                 print(f"Completed {turn_counter} revolution")
 
