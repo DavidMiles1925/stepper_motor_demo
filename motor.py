@@ -2,6 +2,7 @@ import RPi.GPIO as GPIO
 from time import sleep
 
 number_of_turns = 1
+step_direction = True
 
 # The pins we will use to drive the motor on the Raspberry Pi
 MOTOR_PIN_ARRAY = [23,22,27,17]
@@ -20,16 +21,19 @@ step_sequence = [
 
 
 # Delay between steps in seconds
-step_delay = 0.000732
 
-# STEP DELAY VALUES:
+# STEP DELAY VALUES: Copy and paste below.
 # DELAY = (60/RPM) / 4096
+# 1/2 RPM: 0.029297
 #   1 RPM: 0.014648
 #   2 RPM: 0.007324
 #   5 RPM: 0.002930
 #  10 RPM: 0.001465
 #  15 RPM: 0.000977
 #  20 RPM: 0.000732
+
+# Paste value here:
+step_delay = 0.014648
 
 
 # Steps required for a full rotation\
@@ -72,7 +76,7 @@ if __name__ == "__main__":
         while True:
             # Rotate the motor 360 degrees clockwise
             for num in range(number_of_turns):
-                step(False, steps_per_revolution)
+                step(step_direction, steps_per_revolution)
                 turn_counter = turn_counter + 1
                 print(f"Completed {turn_counter} revolution")
 
