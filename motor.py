@@ -1,8 +1,23 @@
 import RPi.GPIO as GPIO
 from time import sleep
 
-number_of_turns = 1
+number_of_turns = 10000
 step_direction = True
+
+# Delay between steps in seconds
+##########################################
+# STEP DELAY VALUES: Copy and paste below.
+# DELAY = (60/RPM) / 4096
+# 1/2 RPM: 0.029297
+#   1 RPM: 0.014648
+#   2 RPM: 0.007324
+#   5 RPM: 0.002930
+#  10 RPM: 0.001465
+#  15 RPM: 0.000977
+#  20 RPM: 0.000732
+##########################################
+# Paste value here:
+step_delay = 0.014648
 
 # The pins we will use to drive the motor on the Raspberry Pi
 MOTOR_PIN_ARRAY = [23,22,27,17]
@@ -19,21 +34,6 @@ step_sequence = [
     [0, 0, 0, 1]
 ]
 
-
-# Delay between steps in seconds
-
-# STEP DELAY VALUES: Copy and paste below.
-# DELAY = (60/RPM) / 4096
-# 1/2 RPM: 0.029297
-#   1 RPM: 0.014648
-#   2 RPM: 0.007324
-#   5 RPM: 0.002930
-#  10 RPM: 0.001465
-#  15 RPM: 0.000977
-#  20 RPM: 0.000732
-
-# Paste value here:
-step_delay = 0.014648
 
 
 # Steps required for a full rotation\

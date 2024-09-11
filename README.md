@@ -1,5 +1,11 @@
 # Stepper Motor Demo
 
+## About
+
+This project was orginially conceived to show a group of friends how a stepper motor works.
+
+Recently, I have incorporated it into my "Disco Ball" 3D printing project. I hope to make a printable disco ball and use a stepper motor to spin it. I'll update this readme once the project is printed and complete.
+
 ## Assembly
 
 ### Parts List
@@ -15,15 +21,15 @@
 
 Match colors of wires to respective pins on devices.
 
-![Pi](./photo/close_up_pi.jpg)
-![Board](./photo/close_up_motor_board.jpg)
-
 | Pi Pin (BCM) | Motor Board Pin |
 | ------------ | --------------- |
 | 17           | IN1             |
 | 27           | IN2             |
 | 22           | IN3             |
 | 23           | IN4             |
+
+![Pi](./photo/close_up_pi.jpg)
+![Board](./photo/close_up_motor_board.jpg)
 
 The motor should have a fitted connector going to the board.
 
@@ -57,14 +63,33 @@ sudo python /home/YOUR_PI_NAME/stepper_motor_demo/motor.py &
 
 ## Controlling the Motor
 
-### step_delay
+### `number_of_turns`
 
-To change the speed of the motor, your must edit this value in the code.
+This is an integer that determines how many times the motor will start. The default value is very high to create an illusion of "infinite" spinning.
+
+Default Value = 10000
+
+### `step_direction`
+
+This is a boolean value (either `True` or `False`).
+
+Default Value = `True`
+
+| Value   | Rotation          |
+| ------- | ----------------- |
+| `True`  | Clockwise         |
+| `False` | Counter-Clockwise |
+
+### `step_delay`
+
+To change the speed of the motor, your must edit this value in the code of `motor.py`.
 
 The formula for determining this value is as follows:  
 DELAY = (60/RPM) / 4096
 
 These are some quick-values for the `step_selay` value.
+
+Default Value = 0.014648 (1 RPM)
 
 | Speed   | Value    |
 | ------- | -------- |
@@ -75,3 +100,5 @@ These are some quick-values for the `step_selay` value.
 | 10 RPM  | 0.001465 |
 | 15 RPM  | 0.000977 |
 | 20 RPM  | 0.000732 |
+
+**WARNING: DO NOT EXCEED 20 RPM. THE MOTOR WILL PRODUCE TOO MUCH HEAT AND EVENTUALLY FAIL.**
