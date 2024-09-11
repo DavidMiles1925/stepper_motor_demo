@@ -41,9 +41,25 @@ The motor should have a fitted connector going to the board.
 git clone https://github.com/DavidMiles1925/stepper_motor_demo.git
 ```
 
+3. (Optional) Set the program up to run on startup.
+
+- Edit the `rc.local` file:
+
+```bash
+sudo nano /etc/rc.local
+```
+
+- Add this line to the file, right before the `exit 0`. Make sure to replace `YOUR_PI_NAME` with the actual name of your Pi.
+
+```bash
+sudo python /home/YOUR_PI_NAME/stepper_motor_demo/motor.py &
+```
+
 ## Controlling the Motor
 
 ### step_delay
+
+To change the speed of the motor, your must edit this value in the code.
 
 The formula for determining this value is as follows:  
 DELAY = (60/RPM) / 4096
