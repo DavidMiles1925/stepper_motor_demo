@@ -63,6 +63,8 @@ sudo python /home/YOUR_PI_NAME/stepper_motor_demo/motor.py &
 
 ## Controlling the Motor
 
+**To change the behavior of the motor, your must edit these values in the code of `motor.py`.**
+
 ### `number_of_turns`
 
 This is an integer that determines how many times the motor will turn. The default value is very high to create an illusion of "infinite" spinning.
@@ -81,8 +83,6 @@ Default Value = `True`
 | `False` | Counter-Clockwise |
 
 ### `step_delay`
-
-To change the speed of the motor, your must edit this value in the code of `motor.py`.
 
 The formula for determining this value is as follows:  
 DELAY = (60/RPM) / 4096
