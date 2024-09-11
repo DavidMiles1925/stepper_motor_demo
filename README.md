@@ -84,6 +84,8 @@ Default Value = `True`
 
 ### `step_delay`
 
+This value controls the speed of the motor.
+
 The formula for determining this value is as follows:  
 DELAY = (60/RPM) / 4096
 
