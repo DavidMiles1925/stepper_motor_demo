@@ -10,12 +10,12 @@ Recently, I have incorporated it into my "Disco Ball" 3D printing project. I hop
 
 ### Parts List
 
-| Part                   | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Raspberry Pi Zero 2 W  | [Link](https://www.microcenter.com/product/643085/raspberry-pi-zero-2-w)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
-| Stepper Motor 28BYJ-48 | [Link](https://www.amazon.com/SYUAB-28BYJ-48-ULN2003-Stepper-Raspberry/dp/B09MRTD2SZ/ref=sr_1_2_sspa?crid=2311CL4SJKV6D&dib=eyJ2IjoiMSJ9.09ZVIWXs04-XFKBqoVxXMisEjyndr2kuRbQ5r9dre7tdhwyQkQ9aUvC7CDtbLrU05rEMOL5mxo0oxqkEoPnIKbtuRVM4opDRMmNJGMbxFOD6kfu42OxyIYzypXJcSt5nvJ7I_kHVbmZnZsl29Wb9V0Hb9Lbqt_Zdn51jdGTyi-IYQJswhHcJTbcGuFdpxBQPTB96p94AHvrGKMvhUMfd7I5X8pWHTlCsepW5jOYdTtc.KVsYTlaNP8yzynkXTIgXyJYxVdw7qL_P_VsGYfj1n_E&dib_tag=se&keywords=stepper+motor+28byj+48&qid=1726029497&sprefix=stepper+motor+28byj+48%2Caps%2C158&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
-| Motor Control Board    | [Link](https://www.amazon.com/SYUAB-28BYJ-48-ULN2003-Stepper-Raspberry/dp/B09MRTD2SZ/ref=sr_1_2_sspa?crid=2311CL4SJKV6D&dib=eyJ2IjoiMSJ9.09ZVIWXs04-XFKBqoVxXMisEjyndr2kuRbQ5r9dre7tdhwyQkQ9aUvC7CDtbLrU05rEMOL5mxo0oxqkEoPnIKbtuRVM4opDRMmNJGMbxFOD6kfu42OxyIYzypXJcSt5nvJ7I_kHVbmZnZsl29Wb9V0Hb9Lbqt_Zdn51jdGTyi-IYQJswhHcJTbcGuFdpxBQPTB96p94AHvrGKMvhUMfd7I5X8pWHTlCsepW5jOYdTtc.KVsYTlaNP8yzynkXTIgXyJYxVdw7qL_P_VsGYfj1n_E&dib_tag=se&keywords=stepper+motor+28byj+48&qid=1726029497&sprefix=stepper+motor+28byj+48%2Caps%2C158&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
-| DuPont Wires (F-F)     | [Link](https://www.amazon.com/Multicolored-Breadboard-Raspberry-120-Wires/dp/B0D56T3KQ8/ref=sr_1_1_sspa?crid=2UHHEISZNYIFO&dib=eyJ2IjoiMSJ9.lELC5-gncdYu6G9BRLhOdCHZ162tO6_pDczMCIn5t6BMvW06Nb1z_CeoJXYjxmhOOZoBBrU_RBUOIWk6unPrHAok3H5q5Sy9GAX0_4iLQX2Ml-7dWbPDY3Z4gA0OqgkAtIvwthzQwGfLOxqsO4sfjuSD0EpxOebhx5XI2el_GwMTEQYbxEEFZ3Fo9C2l8Z8xFjPeEukGDe8rLFQk0HVRRw_pY8q7O9Q57tFGgWWWCYk.BTeUj5FxWIs4m9FvSrwzoelVv8rc9Oc1HON6YNUqT-0&dib_tag=se&keywords=dupont+wire&qid=1726029521&sprefix=dupont%2Caps%2C221&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)                         |
+| Part                   | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Raspberry Pi Zero 2 W  | [Micro Center](https://www.microcenter.com/product/643085/raspberry-pi-zero-2-w)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Stepper Motor 28BYJ-48 | [Amazon](https://www.amazon.com/SYUAB-28BYJ-48-ULN2003-Stepper-Raspberry/dp/B09MRTD2SZ/ref=sr_1_2_sspa?crid=2311CL4SJKV6D&dib=eyJ2IjoiMSJ9.09ZVIWXs04-XFKBqoVxXMisEjyndr2kuRbQ5r9dre7tdhwyQkQ9aUvC7CDtbLrU05rEMOL5mxo0oxqkEoPnIKbtuRVM4opDRMmNJGMbxFOD6kfu42OxyIYzypXJcSt5nvJ7I_kHVbmZnZsl29Wb9V0Hb9Lbqt_Zdn51jdGTyi-IYQJswhHcJTbcGuFdpxBQPTB96p94AHvrGKMvhUMfd7I5X8pWHTlCsepW5jOYdTtc.KVsYTlaNP8yzynkXTIgXyJYxVdw7qL_P_VsGYfj1n_E&dib_tag=se&keywords=stepper+motor+28byj+48&qid=1726029497&sprefix=stepper+motor+28byj+48%2Caps%2C158&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
+| Motor Control Board    | [Amazon](https://www.amazon.com/SYUAB-28BYJ-48-ULN2003-Stepper-Raspberry/dp/B09MRTD2SZ/ref=sr_1_2_sspa?crid=2311CL4SJKV6D&dib=eyJ2IjoiMSJ9.09ZVIWXs04-XFKBqoVxXMisEjyndr2kuRbQ5r9dre7tdhwyQkQ9aUvC7CDtbLrU05rEMOL5mxo0oxqkEoPnIKbtuRVM4opDRMmNJGMbxFOD6kfu42OxyIYzypXJcSt5nvJ7I_kHVbmZnZsl29Wb9V0Hb9Lbqt_Zdn51jdGTyi-IYQJswhHcJTbcGuFdpxBQPTB96p94AHvrGKMvhUMfd7I5X8pWHTlCsepW5jOYdTtc.KVsYTlaNP8yzynkXTIgXyJYxVdw7qL_P_VsGYfj1n_E&dib_tag=se&keywords=stepper+motor+28byj+48&qid=1726029497&sprefix=stepper+motor+28byj+48%2Caps%2C158&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
+| DuPont Wires (F-F)     | [Amazon](https://www.amazon.com/Multicolored-Breadboard-Raspberry-120-Wires/dp/B0D56T3KQ8/ref=sr_1_1_sspa?crid=2UHHEISZNYIFO&dib=eyJ2IjoiMSJ9.lELC5-gncdYu6G9BRLhOdCHZ162tO6_pDczMCIn5t6BMvW06Nb1z_CeoJXYjxmhOOZoBBrU_RBUOIWk6unPrHAok3H5q5Sy9GAX0_4iLQX2Ml-7dWbPDY3Z4gA0OqgkAtIvwthzQwGfLOxqsO4sfjuSD0EpxOebhx5XI2el_GwMTEQYbxEEFZ3Fo9C2l8Z8xFjPeEukGDe8rLFQk0HVRRw_pY8q7O9Q57tFGgWWWCYk.BTeUj5FxWIs4m9FvSrwzoelVv8rc9Oc1HON6YNUqT-0&dib_tag=se&keywords=dupont+wire&qid=1726029521&sprefix=dupont%2Caps%2C221&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1)                         |
 
 ### Connections
 
@@ -37,7 +37,7 @@ The motor should have a fitted connector going to the board.
 
 ### Running the Program
 
-1. Set up your Rapsberry Pi. There are instructions here: [Set up Raspberry Pi](https://github.com/DavidMiles1925/pi_zero_setup#setup-procedure)
+1. Set up your Rapsberry Pi. There are instructions here: [Set up Raspberry Pi](https://github.com/DavidMiles1925/pi_zero_setup#setting-up-raspberry-pi-zero)
 
 2. Install the code
 
@@ -65,7 +65,7 @@ sudo python /home/YOUR_PI_NAME/stepper_motor_demo/motor.py &
 
 ### `number_of_turns`
 
-This is an integer that determines how many times the motor will start. The default value is very high to create an illusion of "infinite" spinning.
+This is an integer that determines how many times the motor will turn. The default value is very high to create an illusion of "infinite" spinning.
 
 Default Value = 10000
 
@@ -87,7 +87,7 @@ To change the speed of the motor, your must edit this value in the code of `moto
 The formula for determining this value is as follows:  
 DELAY = (60/RPM) / 4096
 
-These are some quick-values for the `step_selay` value.
+These are some quick-values for the `step_delay` value.
 
 Default Value = 0.014648 (1 RPM)
 
