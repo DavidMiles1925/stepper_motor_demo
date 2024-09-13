@@ -2,9 +2,15 @@
 
 ## About
 
+### Description
+
 This project was orginially conceived to show a group of friends how a stepper motor works.
 
 Recently, I have incorporated it into my "Disco Ball" 3D printing project. I hope to make a printable disco ball and use a stepper motor to spin it. I'll update this readme once the project is printed and complete.
+
+### Quick Video
+
+[**Click here for <1 minute introduction**](https://youtube.com/shorts/1uA7yoVe8u4)
 
 ## Assembly
 
