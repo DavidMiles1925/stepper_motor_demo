@@ -19,8 +19,6 @@ Recently, I have incorporated it into my "Disco Ball" 3D printing project. I hop
 
 ### Connections
 
-Match colors of wires to respective pins on devices.
-
 | Pi Pin (BCM) | Motor Board Pin |
 | ------------ | --------------- |
 | 17           | IN1             |
@@ -28,12 +26,20 @@ Match colors of wires to respective pins on devices.
 | 22           | IN3             |
 | 23           | IN4             |
 
+**Match colors of wires to respective pins on devices.**
+
 ![Pi](./photo/close_up_pi.jpg)
 ![Board](./photo/close_up_motor_board.jpg)
+![Setup](./photo/board_setup.jpg)
 
-The motor should have a fitted connector going to the board.
+**The motor should have a fitted connector going to the board.**
 
 ![Connector](./photo/close_up_motor_connection.jpg)
+
+**WARNING: YOU MUST POWER THE MOTOR INDEPENDENTLY! _DO NOT POWER THE MOTOR DIRECTLY FROM THE RASPBERRY PI_**
+**I recommend using a USB connection.**
+
+![Power](./photo/power.jpg)
 
 ### Running the Program
 
