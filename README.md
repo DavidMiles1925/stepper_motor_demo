@@ -4,13 +4,15 @@
 
 ### Description
 
+![Disco Ball](./photo/disco_ball.gif)
+
 This project was orginially conceived to show a group of friends how a stepper motor works.
 
-Recently, I have incorporated it into my "Disco Ball" 3D printing project. I hope to make a printable disco ball and use a stepper motor to spin it. I'll update this readme once the project is printed and complete.
+Recently, I have incorporated it into my "Disco Ball" 3D printing project. I hope made a printable disco ball and use a stepper motor to spin it. Great for parties with my fellow nerds!
 
 ### Quick Video
 
-[**Click here for <1 minute introduction**](https://youtube.com/shorts/1uA7yoVe8u4)
+[**Click here for <1 minute introduction to stepper motors**](https://youtube.com/shorts/1uA7yoVe8u4)
 
 ## Assembly
 
@@ -18,6 +20,7 @@ Recently, I have incorporated it into my "Disco Ball" 3D printing project. I hop
 
 | Part                   | Link                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Disco Ball STL Files   | [Creality](https://www.crealitycloud.com/user-profile/5069172030)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | Raspberry Pi Zero 2 W  | [Micro Center](https://www.microcenter.com/product/643085/raspberry-pi-zero-2-w)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Stepper Motor 28BYJ-48 | [Amazon](https://www.amazon.com/SYUAB-28BYJ-48-ULN2003-Stepper-Raspberry/dp/B09MRTD2SZ/ref=sr_1_2_sspa?crid=2311CL4SJKV6D&dib=eyJ2IjoiMSJ9.09ZVIWXs04-XFKBqoVxXMisEjyndr2kuRbQ5r9dre7tdhwyQkQ9aUvC7CDtbLrU05rEMOL5mxo0oxqkEoPnIKbtuRVM4opDRMmNJGMbxFOD6kfu42OxyIYzypXJcSt5nvJ7I_kHVbmZnZsl29Wb9V0Hb9Lbqt_Zdn51jdGTyi-IYQJswhHcJTbcGuFdpxBQPTB96p94AHvrGKMvhUMfd7I5X8pWHTlCsepW5jOYdTtc.KVsYTlaNP8yzynkXTIgXyJYxVdw7qL_P_VsGYfj1n_E&dib_tag=se&keywords=stepper+motor+28byj+48&qid=1726029497&sprefix=stepper+motor+28byj+48%2Caps%2C158&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
 | Motor Control Board    | [Amazon](https://www.amazon.com/SYUAB-28BYJ-48-ULN2003-Stepper-Raspberry/dp/B09MRTD2SZ/ref=sr_1_2_sspa?crid=2311CL4SJKV6D&dib=eyJ2IjoiMSJ9.09ZVIWXs04-XFKBqoVxXMisEjyndr2kuRbQ5r9dre7tdhwyQkQ9aUvC7CDtbLrU05rEMOL5mxo0oxqkEoPnIKbtuRVM4opDRMmNJGMbxFOD6kfu42OxyIYzypXJcSt5nvJ7I_kHVbmZnZsl29Wb9V0Hb9Lbqt_Zdn51jdGTyi-IYQJswhHcJTbcGuFdpxBQPTB96p94AHvrGKMvhUMfd7I5X8pWHTlCsepW5jOYdTtc.KVsYTlaNP8yzynkXTIgXyJYxVdw7qL_P_VsGYfj1n_E&dib_tag=se&keywords=stepper+motor+28byj+48&qid=1726029497&sprefix=stepper+motor+28byj+48%2Caps%2C158&sr=8-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1) |
